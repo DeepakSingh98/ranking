@@ -19,7 +19,7 @@ st.title("🔍 Ranking Algorithms Performance Dashboard")
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('/Users/deepak/mercor-monorepo/ml/enterprise_sort/ranking_results_avg.csv')
+        df = pd.read_csv('ranking_results_avg.csv')
     except FileNotFoundError:
         st.error("The file 'ranking_results_avg.csv' was not found in the current directory.")
         st.stop()

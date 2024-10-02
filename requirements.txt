@@ -1,0 +1,10 @@
+pandas
+numpy
+tqdm
+openai
+matplotlib
+seaborn
+tqdm
+gdown
+python-dotenv
+plotly
